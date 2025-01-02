@@ -4,10 +4,10 @@ import getFsType from "./getFsType";
 
 export function activate(context: ExtensionContext) {
   context.subscriptions.push(
-    commands.registerCommand("first-show", async () => {
+    commands.registerCommand("type-format", async () => {
       try {
         const input = await window.showInputBox({
-          title: "first-show",
+          title: "type-format",
           placeHolder: "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
         });
         if (input) {

@@ -1,6 +1,7 @@
 {
-  "name": "first-show",
-  "displayName": "first-show",
+  "name": "type-format",
+  "displayName": "type-format",
+  "publisher": "atomnotion",
   "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
   "version": "0.0.1",
   "engines": {
@@ -15,7 +16,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "first-show",
+        "command": "type-format",
         "title": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型"
       }
     ]
