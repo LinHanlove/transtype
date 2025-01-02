@@ -14,13 +14,13 @@ vscode插件, json数据或格式化后的markdown表格数据导出 typescript 
 - 按下 **F1** 键，召唤出VSCode的控制台。
 - 输入 **"type-format"**，选择那个带有🌿图标的选项，让我们开始生成TypeScript类型的魔法之旅
 
-![第1步](./src/public/images/select.png)
+![第1步](/public/images/select.png)
 
 
 ### 第2步：输入咒语
 - 在弹出的神秘输入框中，输入你的json数据或格式化后的markdown表格数据。这将是我们的咒语原料！
 
-![第1步](./src/public/images/input.png)
+![第1步](/public/images/input.png)
 
 
 ### 第3步：见证奇迹
