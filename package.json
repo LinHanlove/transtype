@@ -1,6 +1,6 @@
 {
-  "name": "fs-type",
-  "displayName": "fs-type",
+  "name": "first-show",
+  "displayName": "first-show",
   "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
   "version": "0.0.1",
   "engines": {
@@ -15,7 +15,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "fs-type",
+        "command": "first-show",
         "title": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型"
       }
     ]
