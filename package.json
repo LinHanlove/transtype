@@ -3,7 +3,7 @@
   "displayName": "type-format",
   "publisher": "LinHanPro",
   "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/LinHanlove/type-format.git"
   },
-  "icon": "public/images/logo.jpg",
+  "icon": "public/images/logo.jpeg",
   "categories": [
     "Snippets",
     "Other"
