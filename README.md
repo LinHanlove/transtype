@@ -2,9 +2,11 @@
 
 **VSCode插件**，能够将json数据或经过**谷歌浏览器插件Atom Honeycomb**格式化后的markdown表格数据转换成TypeScript类型定义。
 
+[谷歌浏览器插件点击直达](https://chromewebstore.google.com/search/Atom%20Honeycomb?hl=zh-CN&utm_source=ext_sidebar)
+
 ### 📸 **示例演示**
 - 通过浏览器插件**Atom Honeycomb**将语雀表格数据格式化后，使用**type-format**插件生成TypeScript类型。
-- 
+
 ![使用演示](/public/video/use.gif)
 
 ### 📦 **安装**
@@ -28,9 +30,6 @@
 
 ![2](/public/images/types.png)
 
-### 🍭 **反馈与建议**
-- 有更棒的想法或魔法配方？[点这里留言](https://github.com/LinHanlove/type-format/issues/new)，让我们一起让魔法更加强大！
-
 ---
 
 **两种方式详解：**
@@ -45,3 +44,38 @@
    - 使用**Atom Honeycomb**将Markdown表格数据格式化为JSON。
    - 将格式化后的JSON数据复制粘贴到VSCode的“type-format”插件输入框中。
    - 回车，插件将自动将格式化后的JSON数据转换为TypeScript接口。
+
+### 🌈 对于后端接口语雀文档表格定义字段的要求
+ 以下为最佳示例
+ ![对于后端接口语雀文档表格定义字段的要求](/public/images/yuequeTable.png)
+
+#####  具体表现为：
+- 表格为四项 
+- 名称
+- 类型
+- 是否必填 
+- 字段描述
+  
+##### 下列是对四个表头的具体描述/要求：
+● 名称
+- 字段名称
+- 驼峰法命名
+- 如果该项为数组的某一项，则该名称以└ 开头，直至该组数组的所有项穷举完毕
+
+● 类型标记映射
+- 字符类型 --- 【String、string】
+- 数字类型 --- 【Number、number、Int、int、Integer、interge】
+- 布尔类型 --- 【Boolean、boolean】
+- 数组类型 --- 【List、list、Array、array】
+
+● 是否必填
+- M --- 【必填】
+- O --- 【非必填】
+
+● 字段描述
+- 无特别要求，正常描述即可
+
+---
+
+### 🍭 **反馈与建议**
+- 有更棒的想法或魔法配方？[点这里留言](https://github.com/LinHanlove/type-format/issues/new)，让我们一起让魔法更加强大！
