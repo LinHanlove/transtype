@@ -3,7 +3,7 @@
   "displayName": "transtype",
   "publisher": "LinHanPro",
   "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.96.0"
   },
