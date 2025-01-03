@@ -1,22 +1,21 @@
-import { window, commands, env, Range, type ExtensionContext } from "vscode";
-import getType from "./getType";
-import getFsType from "./getFsType";
+import { window, commands, env, Range, type ExtensionContext } from 'vscode';
+import getType from './getType';
+import getFsType from './getFsType';
 
 export function activate(context: ExtensionContext) {
   context.subscriptions.push(
-    commands.registerCommand("type-format", async () => {
+    commands.registerCommand('transtype', async () => {
       try {
         const input = await window.showInputBox({
-          title: "type-format",
-          placeHolder: "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
+          title: 'transtype',
+          placeHolder: '🌿 json数据或格式化后的markdown表格数据导出 typescript 类型',
         });
         if (input) {
           const data = JSON.parse(input);
           const output = data.TableMarkdown ? getFsType(data.TableMarkdown) : getType(input);
-          console.log(output);
           insertText(output);
           await env.clipboard.writeText(output);
-          window.showInformationMessage("类型生成成功, 已复制到剪贴板.");
+          window.showInformationMessage('类型生成成功, 已复制到剪贴板.');
         }
       } catch (error) {
         window.showErrorMessage(error as string);

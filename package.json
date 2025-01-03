@@ -1,15 +1,15 @@
 {
-  "name": "type-format",
-  "displayName": "type-format",
+  "name": "transtype",
+  "displayName": "transtype",
   "publisher": "LinHanPro",
   "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.96.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LinHanlove/type-format.git"
+    "url": "git+https://github.com/LinHanlove/transtype.git"
   },
   "icon": "public/images/logo.jpeg",
   "categories": [
@@ -22,7 +22,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "type-format",
+        "command": "transtype",
         "title": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型"
       }
     ]
