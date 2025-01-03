@@ -49,6 +49,12 @@
  以下为最佳示例
  ![对于后端接口语雀文档表格定义字段的要求](/public/images/yuequeTable.png)
 
+#### 对于嵌套数组
+![alt text](/public/images/array.png)
+
+
+#### 对于嵌套对象
+![alt text](/public/images/object.png)
 #####  具体表现为：
 - 表格为四项 
 - 名称
