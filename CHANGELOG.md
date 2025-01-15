@@ -1,9 +1,17 @@
-# Change Log
+# 版本更新记录
 
-All notable changes to the "transtype" extension will be documented in this file.
+## [v0.1.1] 2025-01-06
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- 初始化项目，优化项目结构
+- 增加示例演示和详细使用说明
+- 增加插件链接及字段要求说明，优化文档
 
-## [Unreleased]
+## [v0.1.2] 2025-01-08
 
-- Initial release
+- 增加嵌套数组与对象示例，优化文档
+- 降级@types/vscode至1.9.0，优化依赖
+- 优化类型转换逻辑与提示信息
+
+## [v0.1.3] 2025-10-15
+
+- 优化插件描述与文档，增强用户体验
