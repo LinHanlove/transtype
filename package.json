@@ -2,8 +2,8 @@
   "name": "transtype",
   "displayName": "transtype",
   "publisher": "LinHanPro",
-  "description": "🌿 json数据或格式化后的markdown表格数据导出 typescript 类型",
-  "version": "0.1.2",
+  "description": "🌿 一款强大的VSCode插件，能够将json数据或经过格式化后的markdown表格数据高效转换为TypeScript类型定义，助力开发者快速生成规范的代码结构，提升开发效率，让代码库更加清晰、易于维护。",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.9.0"
   },

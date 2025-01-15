@@ -25,6 +25,7 @@ async function handleTranstype() {
 
     const data = JSON.parse(input);
     const output = data.TableMarkdown ? getFsType(data.TableMarkdown) : getType(input);
+    console.log('output', output);
 
     // 插入到编辑器并复制到剪贴板
     await Promise.all([insertText(output), env.clipboard.writeText(output)]);
